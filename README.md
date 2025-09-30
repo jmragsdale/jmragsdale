@@ -1,4 +1,4 @@
-# Hi, I'm Jermaine 👋
+# Hi, I'm Jermaine 👋🏾
 
 ## Cloud Security Architect | Zero-Trust Advocate | FinTech Security Specialist
 
