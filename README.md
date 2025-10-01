@@ -33,7 +33,7 @@ I architect secure, compliant cloud infrastructure that protects sensitive data 
 
 ### 📍 Location & Availability
 
-Based in Atlanta, GA | Open to remote opportunities and consulting
+Based in Atlanta Metro, GA | Open to remote opportunities and consulting
 
 ### 📫 Let's Connect
 
