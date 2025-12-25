@@ -64,18 +64,6 @@ I architect secure, compliant cloud infrastructure that protects sensitive data 
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jmragsdale&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jmragsdale&theme=dark&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
 ### 📫 Let's Connect
 
 Open to remote opportunities and consulting engagements.
