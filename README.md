@@ -1,6 +1,7 @@
 # Hi, I'm Jermaine 👋🏾
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jermaine-ragsdale-cissp/)
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/jermaine-ragsdale/badges)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jermaine.ragsdale@gmail.com)
 ![CISSP](https://img.shields.io/badge/CISSP-Certified-006400?style=flat&logo=isc2&logoColor=white)
 ![Location](https://img.shields.io/badge/Atlanta%20Metro-GA-blue?style=flat)
