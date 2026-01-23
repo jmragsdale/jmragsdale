@@ -3,6 +3,17 @@
 Auto-generated journal of project changes.
 Generated: 2026-01-05 19:39
 
+## 2026-01-21 20:15
+
+**Commit:** 
+
+Add changelog, devlog, and gitignore files
+
+**Files:** .gitignore,CHANGELOG.md,DEVLOG.md
+
+---
+
+
 ## 2026-01-01
 
 **Commit:** `b330ff0`
