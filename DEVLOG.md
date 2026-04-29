@@ -3,6 +3,17 @@
 Auto-generated journal of project changes.
 Generated: 2026-01-05 19:39
 
+## 2026-04-01 16:36
+
+**Commit:** 
+
+Rotate featured security projects — highlight AI & governance repos
+
+**Files:** README.md
+
+---
+
+
 ## 2026-01-23 12:37
 
 **Commit:** 
