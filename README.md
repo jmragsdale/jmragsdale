@@ -70,13 +70,12 @@ Beyond security, I'm passionate about **quantitative trading** and developing al
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| 🏛️ Multi-Cloud Compliance Baselines — [AWS](https://github.com/jmragsdale/aws-compliance-baseline-terraform) · [Azure](https://github.com/jmragsdale/az-compliance-baseline-terraform) · [GCP](https://github.com/jmragsdale/gcp-compliance-baseline-terraform) | FedRAMP Rev 5 / NIST 800-53 / CIS baselines with a CI-verified `controls.yaml` — every control claim resolves to real Terraform | Terraform, OPA |
 | [🤖 AI IaC Security Reviewer](https://github.com/jmragsdale/ai-iac-security-reviewer) | AI-powered Terraform/Bicep/CFN security review with CI/CD gating | Python, Multi-LLM |
-| [🔐 Secrets Rotation](https://github.com/jmragsdale/aws-secrets-rotation-terraform) | Automated credential rotation with Lambda & KMS | AWS, Terraform |
-| [🖼️ AI Image Tagger](https://github.com/jmragsdale/aws-s3-ai-image-tagger) | Serverless image analysis with Amazon Bedrock Claude | AWS, Bedrock |
-| [📄 AI Doc Summarizer](https://github.com/jmragsdale/azure-blob-ai-doc-summarizer) | Automated document summarization with Azure OpenAI | Azure, Terraform |
-| [🛡️ Resource Lock Governance](https://github.com/jmragsdale/az-resource-lock-governance) | Policy-driven resource protection with Azure Policy | Azure, Terraform |
-| [🌐 Secure Web VPC](https://github.com/jmragsdale/aws-secure-web-vpc) | Production VPC with WAF, multi-AZ, defense-in-depth | AWS, Terraform |
+| [🎯 Prompt Injection Probe](https://github.com/jmragsdale/prompt-injection-probe) | Canary-token guardrail tests for LLM apps, mapped to the OWASP LLM Top 10, CI exit codes | Python, OWASP LLM |
 | [🔒 Local LLM Security Copilot](https://github.com/jmragsdale/local-llm-security-copilot) | Air-gapped AI security analysis — zero data exfiltration | Python, LM Studio |
+| [🚦 IaC Policy Pipeline](https://github.com/jmragsdale/iac-policy-pipeline) | Conftest/OPA gate on raw HCL with paired fixtures asserted in both directions | OPA, GitHub Actions |
+| [🔐 Secrets Rotation](https://github.com/jmragsdale/aws-secrets-rotation-terraform) | Automated credential rotation with Lambda & KMS | AWS, Terraform |
 
 <details>
 <summary>📂 More Security Projects</summary>
@@ -88,7 +87,10 @@ Beyond security, I'm passionate about **quantitative trading** and developing al
 | [🛡️ Secretless App](https://github.com/jmragsdale/az-secretless-app) | Zero-trust identity management | Azure, Bicep |
 | [🌐 Hub-Spoke Network](https://github.com/jmragsdale/az-hub-spoke-secure) | Enterprise network with micro-segmentation | Azure, Terraform |
 | [📋 PII Redaction](https://github.com/jmragsdale/aws-pii-redaction) | Automated GDPR/CCPA data privacy | AWS, Terraform |
-| [🚦 IaC Policy Pipeline](https://github.com/jmragsdale/iac-policy-pipeline) | Policy-as-code with OPA validation | GitHub Actions, OPA |
+| [🖼️ AI Image Tagger](https://github.com/jmragsdale/aws-s3-ai-image-tagger) | Serverless image analysis with Amazon Bedrock Claude | AWS, Bedrock |
+| [📄 AI Doc Summarizer](https://github.com/jmragsdale/azure-blob-ai-doc-summarizer) | Automated document summarization with Azure OpenAI | Azure, Terraform |
+| [🛡️ Resource Lock Governance](https://github.com/jmragsdale/az-resource-lock-governance) | Policy-driven resource protection with Azure Policy | Azure, Terraform |
+| [🌐 Secure Web VPC](https://github.com/jmragsdale/aws-secure-web-vpc) | Production VPC with WAF, multi-AZ, defense-in-depth | AWS, Terraform |
 | [📤 Secure File Upload](https://github.com/jmragsdale/aws-secure-file-upload) | Serverless upload with malware scanning | AWS, ClamAV |
 | [📡 Cloud IoT Processing](https://github.com/jmragsdale/cloud-iot-projects) | Dual-cloud IoT pipelines (AWS IoT Core + Azure IoT Hub) | AWS, Azure, Terraform |
 
