@@ -24,37 +24,37 @@ Six projects across agent security, cloud architecture and policy as code. Open 
 <a href="https://github.com/jmragsdale/agent-tool-gateway">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/agent-gateway-dark.png">
-  <img src="assets/profile/agent-gateway-light.png" width="400" alt="Agent Tool Gateway. Policy enforcement between AI agents and their tools.">
+  <img src="assets/profile/agent-gateway-light.png" width="360" alt="Agent Tool Gateway. Policy enforcement between AI agents and their tools.">
 </picture>
 </a>
 <a href="https://github.com/jmragsdale/gcp-vertex-ai-guardrails-terraform">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/vertex-guardrails-dark.png">
-  <img src="assets/profile/vertex-guardrails-light.png" width="400" alt="Vertex AI Guardrails. Terraform controls for model access, identity, networks and audit records.">
+  <img src="assets/profile/vertex-guardrails-light.png" width="360" alt="Vertex AI Guardrails. Terraform controls for model access, identity, networks and audit records.">
 </picture>
 </a>
 <a href="https://github.com/jmragsdale/aws-compliance-baseline-terraform">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/compliance-dark.png">
-  <img src="assets/profile/compliance-light.png" width="400" alt="Cloud Compliance Baselines. Reference infrastructure with control mappings for AWS, Azure and Google Cloud.">
+  <img src="assets/profile/compliance-light.png" width="360" alt="Cloud Compliance Baselines. Reference infrastructure with control mappings for AWS, Azure and Google Cloud.">
 </picture>
 </a>
 <a href="https://github.com/jmragsdale/ai-iac-security-reviewer">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/iac-reviewer-dark.png">
-  <img src="assets/profile/iac-reviewer-light.png" width="400" alt="AI IaC Security Reviewer. A Python tool for reviewing Terraform, Bicep and CloudFormation.">
+  <img src="assets/profile/iac-reviewer-light.png" width="360" alt="AI IaC Security Reviewer. A Python tool for reviewing Terraform, Bicep and CloudFormation.">
 </picture>
 </a>
 <a href="https://github.com/jmragsdale/az-secretless-app">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/secretless-dark.png">
-  <img src="assets/profile/secretless-light.png" width="400" alt="Azure Secretless App. Managed Identity and Key Vault in a reference application architecture.">
+  <img src="assets/profile/secretless-light.png" width="360" alt="Azure Secretless App. Managed Identity and Key Vault in a reference application architecture.">
 </picture>
 </a>
 <a href="https://github.com/jmragsdale/iac-policy-pipeline">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/policy-pipeline-dark.png">
-  <img src="assets/profile/policy-pipeline-light.png" width="400" alt="IaC Policy Pipeline. OPA and Conftest checks for cloud infrastructure changes.">
+  <img src="assets/profile/policy-pipeline-light.png" width="360" alt="IaC Policy Pipeline. OPA and Conftest checks for cloud infrastructure changes.">
 </picture>
 </a>
 </p>
