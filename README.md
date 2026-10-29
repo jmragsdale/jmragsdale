@@ -1,145 +1,70 @@
 # Hi, I'm Jermaine 👋🏾
 
+### Cloud Security Architect | AI Security & Policy as Code | CISSP
+
+I build security controls for cloud platforms and AI systems, with a focus on identity, infrastructure automation and controls that can be inspected in code. My projects span AWS, Azure and Google Cloud, with fintech interests in auditability and data protection.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-jmragsdale.com-1F6FEB?style=flat&logo=googlechrome&logoColor=white)](https://www.jmragsdale.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jermaine-ragsdale-cissp/)
 [![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat&logo=credly&logoColor=white)](https://www.credly.com/users/jermaine-ragsdale/badges)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jermaine.ragsdale@gmail.com)
-![CISSP](https://img.shields.io/badge/CISSP-Certified-006400?style=flat&logo=isc2&logoColor=white)
-![Location](https://img.shields.io/badge/Atlanta%20Metro-GA-blue?style=flat)
 
-## Cloud Security Architect | Zero-Trust Advocate | FinTech Security Specialist | Algorithmic Trader
+Atlanta Metro, GA · Open to remote opportunities and consulting.
 
-I architect secure, compliant cloud infrastructure that protects sensitive data while enabling business innovation. My focus is on building defense-in-depth strategies, automating security controls, and implementing zero-trust principles across Azure and AWS.
+## 🔐 Featured security work
 
-Beyond security, I'm passionate about **quantitative trading** and developing algorithmic strategies for stocks and crypto markets.
+Code, tools and reference architectures. The evidence links show implementation details and documented checks; validation scope and deployment requirements stay with each project.
 
----
+| Project | What I implemented | Evidence to inspect |
+| --- | --- | --- |
+| [Agent Tool Gateway](https://github.com/jmragsdale/agent-tool-gateway) | Policy enforcement between AI agents and tools: principal-bound access, argument checks and approval gates. | [Policy tests](https://github.com/jmragsdale/agent-tool-gateway/blob/main/tests/test_gateway.py) · [Demonstration](https://github.com/jmragsdale/agent-tool-gateway#sample-output) |
+| [Vertex AI Guardrails](https://github.com/jmragsdale/gcp-vertex-ai-guardrails-terraform) | Terraform controls for model access, workload identity, network reach, screening and audit records. | [Control matrix](https://github.com/jmragsdale/gcp-vertex-ai-guardrails-terraform/blob/main/CONTROLS.md) · [CI workflow](https://github.com/jmragsdale/gcp-vertex-ai-guardrails-terraform/blob/main/.github/workflows/ci.yml) |
+| Multi-Cloud Compliance Baselines — [AWS](https://github.com/jmragsdale/aws-compliance-baseline-terraform) · [Azure](https://github.com/jmragsdale/az-compliance-baseline-terraform) · [GCP](https://github.com/jmragsdale/gcp-compliance-baseline-terraform) | Reference infrastructure with control mappings tied to implementing Terraform resources. | [AWS control matrix](https://github.com/jmragsdale/aws-compliance-baseline-terraform/blob/main/CONTROLS.md) · [Control definitions](https://github.com/jmragsdale/aws-compliance-baseline-terraform/blob/main/controls/controls.yaml) |
+| [AI IaC Security Reviewer](https://github.com/jmragsdale/ai-iac-security-reviewer) | A Python tool for reviewing Terraform, Bicep and CloudFormation through local or hosted LLM providers. | [Implementation](https://github.com/jmragsdale/ai-iac-security-reviewer/blob/main/reviewer.py) · [Example inputs](https://github.com/jmragsdale/ai-iac-security-reviewer/tree/main/samples) |
+| [Azure Secretless App](https://github.com/jmragsdale/az-secretless-app) | A reference application architecture using Managed Identity and Key Vault instead of application-held credentials. | [Bicep source](https://github.com/jmragsdale/az-secretless-app/blob/main/bicep/main.bicep) · [Architecture](https://github.com/jmragsdale/az-secretless-app/blob/main/secretless-architecture.svg) |
+| [IaC Policy Pipeline](https://github.com/jmragsdale/iac-policy-pipeline) | OPA/Conftest policy checks with public and private storage examples for AWS and Azure. | [Policy tests](https://github.com/jmragsdale/iac-policy-pipeline/blob/main/policies/opa/policies_test.rego) · [CI workflow](https://github.com/jmragsdale/iac-policy-pipeline/blob/main/.github/workflows/security.yml) |
 
-### 🛠️ Tech Stack
+## 🛠️ Skills
 
-**Cloud Platforms**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
-**Infrastructure as Code**
-
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-**Languages & Tools**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Security & DevSecOps**
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
-![OPA](https://img.shields.io/badge/Open_Policy_Agent-7D9AAA?style=for-the-badge&logo=openpolicyagent&logoColor=white)
-
-**Trading & Analysis**
-
-![TradingView](https://img.shields.io/badge/TradingView-131722?style=for-the-badge&logo=tradingview&logoColor=white)
-![Pine Script](https://img.shields.io/badge/Pine_Script-2962FF?style=for-the-badge&logo=tradingview&logoColor=white)
-![ThinkOrSwim](https://img.shields.io/badge/ThinkOrSwim-5C4033?style=for-the-badge&logo=schwab&logoColor=white)
-
----
-
-### 🔐 What I Do
-
-**Cloud Security**
-- **Design secure cloud architectures** with zero-trust principles
-- **Automate compliance** for SOX, PCI-DSS, GDPR, and CCPA
-- **Build fintech security solutions** (fraud detection, audit trails)
-- **Implement Infrastructure as Code** with security guardrails
-- **Enforce policy-as-code** to prevent misconfigurations
-- **Secure CI/CD pipelines** with automated security scanning
-
-**Algorithmic Trading**
-- **Develop custom scanners** for momentum breakouts and inflection points
-- **Build trading indicators** using Pine Script and ThinkScript
-- **Research contrarian strategies** based on sentiment extremes
-- **Automate trade signals** with real-time alerting systems
-
----
-
-### 📊 Featured Security Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| 🏛️ Multi-Cloud Compliance Baselines — [AWS](https://github.com/jmragsdale/aws-compliance-baseline-terraform) · [Azure](https://github.com/jmragsdale/az-compliance-baseline-terraform) · [GCP](https://github.com/jmragsdale/gcp-compliance-baseline-terraform) | FedRAMP Rev 5 / NIST 800-53 / CIS baselines with a CI-verified `controls.yaml` — every control claim resolves to real Terraform | Terraform, OPA |
-| [🤖 AI IaC Security Reviewer](https://github.com/jmragsdale/ai-iac-security-reviewer) | AI-powered Terraform/Bicep/CFN security review with CI/CD gating | Python, Multi-LLM |
-| [🎯 Prompt Injection Probe](https://github.com/jmragsdale/prompt-injection-probe) | Canary-token guardrail tests for LLM apps, mapped to the OWASP LLM Top 10, CI exit codes | Python, OWASP LLM |
-| [🔒 Local LLM Security Copilot](https://github.com/jmragsdale/local-llm-security-copilot) | Air-gapped AI security analysis — zero data exfiltration | Python, LM Studio |
-| [🚦 IaC Policy Pipeline](https://github.com/jmragsdale/iac-policy-pipeline) | Conftest/OPA gate on raw HCL with paired fixtures asserted in both directions | OPA, GitHub Actions |
-| [🔐 Secrets Rotation](https://github.com/jmragsdale/aws-secrets-rotation-terraform) | Automated credential rotation with Lambda & KMS | AWS, Terraform |
+| Area | Platforms and tools |
+| --- | --- |
+| Cloud | AWS · Azure · Google Cloud |
+| Infrastructure | Terraform · Bicep · CloudFormation |
+| Security automation | OPA/Conftest · GitHub Actions · Azure DevOps · IAM · audit logging |
+| Development | Python · Node.js · Bash · Docker |
 
 <details>
-<summary>📂 More Security Projects</summary>
+<summary>📂 More security projects</summary>
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [🔍 Fraud Detection](https://github.com/jmragsdale/az-fraud-detection-terraform) | Real-time fraud analysis for fintech | Azure, Terraform |
-| [🔒 Audit Trail](https://github.com/jmragsdale/aws-audit-trail-terraform) | Blockchain-inspired immutable logging | AWS, Terraform |
-| [🛡️ Secretless App](https://github.com/jmragsdale/az-secretless-app) | Zero-trust identity management | Azure, Bicep |
-| [🌐 Hub-Spoke Network](https://github.com/jmragsdale/az-hub-spoke-secure) | Enterprise network with micro-segmentation | Azure, Terraform |
-| [📋 PII Redaction](https://github.com/jmragsdale/aws-pii-redaction) | Automated GDPR/CCPA data privacy | AWS, Terraform |
-| [🖼️ AI Image Tagger](https://github.com/jmragsdale/aws-s3-ai-image-tagger) | Serverless image analysis with Amazon Bedrock Claude | AWS, Bedrock |
-| [📄 AI Doc Summarizer](https://github.com/jmragsdale/azure-blob-ai-doc-summarizer) | Automated document summarization with Azure OpenAI | Azure, Terraform |
-| [🛡️ Resource Lock Governance](https://github.com/jmragsdale/az-resource-lock-governance) | Policy-driven resource protection with Azure Policy | Azure, Terraform |
-| [🌐 Secure Web VPC](https://github.com/jmragsdale/aws-secure-web-vpc) | Production VPC with WAF, multi-AZ, defense-in-depth | AWS, Terraform |
-| [📤 Secure File Upload](https://github.com/jmragsdale/aws-secure-file-upload) | Serverless upload with malware scanning | AWS, ClamAV |
-| [📡 Cloud IoT Processing](https://github.com/jmragsdale/cloud-iot-projects) | Dual-cloud IoT pipelines (AWS IoT Core + Azure IoT Hub) | AWS, Azure, Terraform |
+| Project | Focus |
+| --- | --- |
+| [Prompt Injection Probe](https://github.com/jmragsdale/prompt-injection-probe) | Guardrail testing for LLM applications. |
+| [Local LLM Security Copilot](https://github.com/jmragsdale/local-llm-security-copilot) | Local-model workflows for security analysis. |
+| [Secrets Rotation](https://github.com/jmragsdale/aws-secrets-rotation-terraform) | Credential rotation using AWS services. |
+| [Fraud Detection](https://github.com/jmragsdale/az-fraud-detection-terraform) | An Azure event-processing reference for fintech research. |
+| [Audit Trail](https://github.com/jmragsdale/aws-audit-trail-terraform) | Audit logging and integrity-verification infrastructure. |
+| [Hub-Spoke Network](https://github.com/jmragsdale/az-hub-spoke-secure) | Azure network architecture and segmentation. |
+| [PII Redaction](https://github.com/jmragsdale/aws-pii-redaction) | AWS data-redaction workflows. |
+| [AI Image Tagger](https://github.com/jmragsdale/aws-s3-ai-image-tagger) | Serverless image analysis with Amazon Bedrock. |
+| [AI Document Summarizer](https://github.com/jmragsdale/azure-blob-ai-doc-summarizer) | Azure Functions and Azure OpenAI document processing. |
+| [Resource Lock Governance](https://github.com/jmragsdale/az-resource-lock-governance) | Azure resource-protection policies. |
+| [Secure Web VPC](https://github.com/jmragsdale/aws-secure-web-vpc) | AWS network security controls. |
+| [Secure File Upload](https://github.com/jmragsdale/aws-secure-file-upload) | File-upload processing with malware scanning. |
+| [Cloud IoT Processing](https://github.com/jmragsdale/cloud-iot-projects) | AWS and Azure IoT pipelines. |
 
 </details>
 
----
+## 📈 Trading research
 
-### 📈 Trading Projects
+A separate research interest: indicators, scanners and reproducible documentation.
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [📊 Trading Scanners](https://github.com/jmragsdale/trading-breakout-scanner) | Multi-strategy stock & crypto scanners | Pine Script, ThinkScript |
+| Repository | Scope |
+| --- | --- |
+| [TradingView Pine indicators](https://github.com/jmragsdale/trading-breakout-scanner) | Pine breakout/GCR indicators and separate Python research tools. |
+| [ThinkScript library](https://github.com/jmragsdale/trading-thinkscript) | Organized studies, scanners, usage guides and historical performance evidence with explicit validation limits. |
 
-**Strategies Implemented:**
-- **5000x Breakout Scanner** - Identifies explosive momentum breakouts using volume confirmation, new highs, and relative strength
-- **GCR Inflection Point Scanner** - Contrarian strategy detecting sentiment extremes, divergences, and "sell the news" setups
+Source availability and historical research do not establish native-platform parity or future trading performance. Setup details and research assumptions are documented in the respective repositories.
 
-**Features:**
-- RSI/Stochastic extreme detection
-- Volume exhaustion analysis  
-- Bollinger Band price extremes
-- Divergence detection (bullish/bearish)
-- Scoring system (-100 to +100)
-- Real-time alerts for TradingView & thinkorswim
+## 📫 Let's connect
 
----
-
-### 🎯 Trading Interests
-
-- **Momentum Breakouts** - First breakouts from consolidation with volume confirmation
-- **Contrarian Setups** - Finding inflection points at sentiment extremes
-- **Technical Analysis** - Price action, volume analysis, divergence trading
-- **Crypto Markets** - Bitcoin, Ethereum, and high-momentum altcoins
-- **Options Strategies** - Wheel strategy, covered calls, cash-secured puts
-
----
-
-### 📫 Let's Connect
-
-Open to remote opportunities, consulting engagements, and trading discussions.
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jermaine-ragsdale-cissp/)
-[![Email](https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jermaine.ragsdale@gmail.com)
-
----
-
-<p align="center">
-  <i>💡 "Security is not a product, but a process." - Building secure systems one commit at a time.</i>
-</p>
-<p align="center">
-  <i>📈 "Most people are wrong at extreme situations." - Trading the inflection points.</i>
-</p>
+I'm open to remote cloud security roles and consulting engagements involving AI security, infrastructure automation and policy as code. Reach me through the portfolio, LinkedIn or email links above; credentials are linked through Credly.
