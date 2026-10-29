@@ -18,7 +18,7 @@ I build security controls for cloud platforms and AI systems, with a focus on id
 
 ## Selected work
 
-Six projects across agent security, cloud architecture and policy as code. Open a card for the project, or expand the implementation links below to inspect the code and documented checks.
+Six projects across agent security, cloud architecture and policy as code. Open a card for the project, or expand the implementation links below to inspect the code and documented checks. Browse the [full security directory](#security-project-directory) for all 26 public projects.
 
 <p>
 <a href="https://github.com/jmragsdale/agent-tool-gateway">
@@ -82,26 +82,101 @@ These are code, tools and reference architectures. Each repository documents its
 **Development** &nbsp; Python · Node.js · Bash · Docker
 
 
-<details>
-<summary>Browse the rest of my security work</summary>
+<!-- SECURITY DIRECTORY: START -->
+## Security project directory
 
-| Project | Focus |
-| --- | --- |
-| [Prompt Injection Probe](https://github.com/jmragsdale/prompt-injection-probe) | Guardrail testing for LLM applications. |
-| [Local LLM Security Copilot](https://github.com/jmragsdale/local-llm-security-copilot) | Local-model workflows for security analysis. |
-| [Secrets Rotation](https://github.com/jmragsdale/aws-secrets-rotation-terraform) | Credential rotation using AWS services. |
-| [Fraud Detection](https://github.com/jmragsdale/az-fraud-detection-terraform) | An Azure event-processing reference for fintech research. |
-| [Audit Trail](https://github.com/jmragsdale/aws-audit-trail-terraform) | Audit logging and integrity-verification infrastructure. |
-| [Hub-Spoke Network](https://github.com/jmragsdale/az-hub-spoke-secure) | Azure network architecture and segmentation. |
-| [PII Redaction](https://github.com/jmragsdale/aws-pii-redaction) | AWS data-redaction workflows. |
-| [AI Image Tagger](https://github.com/jmragsdale/aws-s3-ai-image-tagger) | Serverless image analysis with Amazon Bedrock. |
-| [AI Document Summarizer](https://github.com/jmragsdale/azure-blob-ai-doc-summarizer) | Azure Functions and Azure OpenAI document processing. |
-| [Resource Lock Governance](https://github.com/jmragsdale/az-resource-lock-governance) | Azure resource-protection policies. |
-| [Secure Web VPC](https://github.com/jmragsdale/aws-secure-web-vpc) | AWS network security controls. |
-| [Secure File Upload](https://github.com/jmragsdale/aws-secure-file-upload) | File-upload processing with malware scanning. |
-| [Cloud IoT Processing](https://github.com/jmragsdale/cloud-iot-projects) | AWS and Azure IoT pipelines. |
+**26 public repositories**, grouped by cloud platform and project type. Each project link opens its refreshed README.
+
+[AWS (9)](#aws) · [Azure (8)](#azure) · [Google Cloud (2)](#google-cloud) · [Cross-platform and local (7)](#cross-platform-and-local)
+
+### AWS
+
+<details open>
+<summary>Browse 9 AWS projects</summary>
+
+#### Governance, identity and network security
+
+- **[AWS Compliance Baseline](https://github.com/jmragsdale/aws-compliance-baseline-terraform/blob/main/README.md)** — Framework mappings tied to Terraform resources, with deployment limits documented.
+- **[AWS IAM Boundaries](https://github.com/jmragsdale/aws-iam-least-privilege/blob/main/README.md)** — Scoped IAM roles, permission-boundary patterns and policy-simulation scripts.
+- **[AWS Secrets Rotation](https://github.com/jmragsdale/aws-secrets-rotation-terraform/blob/main/README.md)** — Secrets Manager and Lambda rotation resources for RDS credentials.
+- **[AWS Secure Web VPC](https://github.com/jmragsdale/aws-secure-web-vpc/blob/main/README.md)** — Subnet, routing and traffic-control configurations in Terraform.
+
+#### Data protection, audit and file security
+
+- **[AWS Financial Audit Trail](https://github.com/jmragsdale/aws-audit-trail-terraform/blob/main/README.md)** — Audit-processing handlers, infrastructure and integrity-verification examples.
+- **[AWS PII Redaction](https://github.com/jmragsdale/aws-pii-redaction/blob/main/README.md)** — Document-processing reference using Comprehend and Lambda.
+- **[AWS Secure File Upload](https://github.com/jmragsdale/aws-secure-file-upload/blob/main/README.md)** — S3, Lambda and ClamAV upload-processing reference and security notes.
+
+#### Cloud AI and data tooling
+
+- **[AWS AI Image Tagger](https://github.com/jmragsdale/aws-s3-ai-image-tagger/blob/main/README.md)** — S3-triggered image-analysis reference using Amazon Bedrock.
+- **[AWS AI Data Migrator](https://github.com/jmragsdale/aws-ai-data-migrator/blob/main/README.md)** — Python migration tooling for S3 and DynamoDB, with data-protection helpers.
 
 </details>
+
+### Azure
+
+<details>
+<summary>Browse 8 Azure projects</summary>
+
+#### Governance, identity and network security
+
+- **[Azure Compliance Baseline](https://github.com/jmragsdale/az-compliance-baseline-terraform/blob/main/README.md)** — Terraform control mappings, policy definitions and documented deployment limits.
+- **[Azure Resource Governance](https://github.com/jmragsdale/az-resource-lock-governance/blob/main/README.md)** — Tag-based resource-lock and Azure Policy reference.
+- **[Entra Identity Controls](https://github.com/jmragsdale/az-entra-conditional-access/blob/main/README.md)** — Conditional Access and PIM configuration, with recovery-account notes.
+- **[Azure Secretless App](https://github.com/jmragsdale/az-secretless-app/blob/main/README.md)** — Managed Identity and Key Vault application pattern, with Bicep source.
+- **[Azure Hub-Spoke Network](https://github.com/jmragsdale/az-hub-spoke-secure/blob/main/README.md)** — Network-segmentation and firewall configuration reference.
+
+#### Detection and event processing
+
+- **[Azure Fraud Detection](https://github.com/jmragsdale/az-fraud-detection-terraform/blob/main/README.md)** — Event Hubs, Functions and Cosmos DB transaction-rule reference.
+
+#### Cloud AI and data tooling
+
+- **[Azure AI Document Summarizer](https://github.com/jmragsdale/azure-blob-ai-doc-summarizer/blob/main/README.md)** — Blob-triggered document-processing reference using Azure OpenAI.
+- **[Azure AI Data Migrator](https://github.com/jmragsdale/az-ai-data-migrator/blob/main/README.md)** — Python migration tooling for Blob Storage and Cosmos DB, with data-protection helpers.
+
+</details>
+
+### Google Cloud
+
+<details>
+<summary>Browse 2 Google Cloud projects</summary>
+
+#### Compliance and governance
+
+- **[GCP Compliance Baseline](https://github.com/jmragsdale/gcp-compliance-baseline-terraform/blob/main/README.md)** — Terraform control mappings, organization configuration and deployment limits.
+
+#### AI platform security
+
+- **[Vertex AI Guardrails](https://github.com/jmragsdale/gcp-vertex-ai-guardrails-terraform/blob/main/README.md)** — Model access, identity, network reach, screening and audit configuration.
+
+</details>
+
+### Cross-platform and local
+
+<details>
+<summary>Browse 7 Cross-platform and local projects</summary>
+
+#### Agent and LLM security
+
+- **[Agent Tool Gateway](https://github.com/jmragsdale/agent-tool-gateway/blob/main/README.md)** — Caller-bound tool permissions, argument checks, taint handling and audit records.
+- **[Prompt Injection Probe](https://github.com/jmragsdale/prompt-injection-probe/blob/main/README.md)** — Canary-based injection probes and reports for owned LLM applications.
+- **[Local Security Copilot](https://github.com/jmragsdale/local-llm-security-copilot/blob/main/README.md)** — LM Studio-compatible log, CVE and configuration-analysis tasks.
+
+#### Infrastructure review, policy and delivery automation
+
+- **[AI IaC Security Reviewer](https://github.com/jmragsdale/ai-iac-security-reviewer/blob/main/README.md)** — Python reviewer for Terraform, Bicep and CloudFormation with local or hosted providers.
+- **[IaC Policy Pipeline](https://github.com/jmragsdale/iac-policy-pipeline/blob/main/README.md)** — OPA/Conftest storage-exposure rules with paired AWS and Azure fixtures.
+- **[CI/CD Security Patterns](https://github.com/jmragsdale/gh-actions-course/blob/main/README.md)** — OIDC and scanning reference notes for GitHub Actions; documentation and examples.
+
+#### Cross-cloud platform examples
+
+- **[Cloud IoT Pipelines](https://github.com/jmragsdale/cloud-iot-projects/blob/main/README.md)** — AWS and Azure IoT examples with handlers, simulators and Terraform.
+
+</details>
+
+<!-- SECURITY DIRECTORY: END -->
 
 
 ## Trading research
