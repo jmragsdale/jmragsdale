@@ -66,3 +66,8 @@ secrets.yaml
 secrets.yml
 .DS_Store
 # ===== end secrets block =====
+
+# Public profile artwork
+!assets/profile/secretless-*.png
+!assets/profile/secretless-*.svg
+node_modules/
